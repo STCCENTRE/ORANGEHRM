@@ -16,6 +16,15 @@ public class Login {
 	driver.findElement(By.name("password")).sendKeys("Stc@1234");
 	
 	driver.findElement(By.cssSelector(".oxd-button")).click();
+	driver.findElement(By.cssSelector("li.oxd-main-menu-item-wrapper:nth-child(2) > a:nth-child(1)")).click();
+	
+	driver.findElement(By.cssSelector("li.oxd-topbar-body-nav-tab:nth-child(3) > a:nth-child(1)")).click();
+	
+	driver.findElement(By.name("firstName")).sendKeys("Ann");
+	driver.findElement(By.name("lastName")).sendKeys("Panackal");
+	
+	driver.findElement(By.xpath("/html/body/div/div[1]/div[2]/div[2]/div/div/form/div[2]/button[2]")).click();
+	
 	
 
 }
