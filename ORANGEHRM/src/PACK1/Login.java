@@ -5,10 +5,12 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
-public class Login {
+public class Login{
+public static void main(String[] args){
 	System.setProperty("webdriver.gecko.driver","C:\\Users\\USER\\Desktop\\Selenum Web Driver\\geckodriver-v0.26.0-win64\\geckodriver.exe");
 	WebDriver driver=new FirefoxDriver();
+	
+	//driver.manage().timeouts().implicitlyWait(40,TimeUnit.SECONDS);
 	driver.manage().timeouts().implicitlyWait(40,TimeUnit.SECONDS);
 	
 	driver.get("http://localhost/orangehrm");
@@ -27,4 +29,5 @@ public class Login {
 	
 	
 
+}
 }
