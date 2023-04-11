@@ -1,9 +1,15 @@
 package PACK1;
 
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
 public class Login {
 	WebDriver driver;
 
-	@Test
+	@org.testng.annotations.Test
 	public void Test()throws InterruptedException{
 
 
