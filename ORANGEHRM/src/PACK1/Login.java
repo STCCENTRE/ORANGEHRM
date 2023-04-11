@@ -25,6 +25,14 @@ public class Login {
 	driver.findElement(By.name("password")).sendKeys("Stc@1234");//password
 	driver.findElement(By.xpath("//button[@type='submit']")).click();//login
 
+	driver.findElement(By.xpath("(//a[@class='oxd-main-menu-item' ])[2]")).click();//PIM
+	driver.findElement(By.cssSelector("li.oxd-topbar-body-nav-tab:nth-child(3)")).click();//add employee
+
+	driver.findElement(By.name("firstName")).sendKeys("Meenu");//employee firstname
+	driver.findElement(By.name("middleName")).sendKeys("A");//employee middlename
+	driver.findElement(By.name("lastName")).sendKeys("A");//employee lastname
+	Thread.sleep(3000);
+	driver.findElement(By.xpath("//button[@type='submit']")).click();//save
 
 }
 }
