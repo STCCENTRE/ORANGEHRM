@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-25T12:54:15 IST" name="Default suite" finished-at="2023-08-25T12:54:26 IST" duration-ms="10428">
+    <groups>
+    </groups>
+    <test started-at="2023-08-25T12:54:15 IST" name="Default test" finished-at="2023-08-25T12:54:26 IST" duration-ms="10428">
+      <class name="PACK1.Login">
+        <test-method signature="launch_app()[pri:0, instance:PACK1.Login@fd07cbb]" started-at="2023-08-25T12:54:15 IST" name="launch_app" finished-at="2023-08-25T12:54:26 IST" duration-ms="10388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_app -->
+      </class> <!-- PACK1.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
